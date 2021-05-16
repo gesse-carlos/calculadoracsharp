@@ -1,0 +1,16 @@
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\bin\Debug\net5.0\Calculadora.exe
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\bin\Debug\net5.0\Calculadora.deps.json
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\bin\Debug\net5.0\Calculadora.runtimeconfig.json
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\bin\Debug\net5.0\Calculadora.runtimeconfig.dev.json
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\bin\Debug\net5.0\Calculadora.dll
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\bin\Debug\net5.0\ref\Calculadora.dll
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\bin\Debug\net5.0\Calculadora.pdb
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\obj\Debug\net5.0\Calculadora.csprojAssemblyReference.cache
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\obj\Debug\net5.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\obj\Debug\net5.0\Calculadora.AssemblyInfoInputs.cache
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\obj\Debug\net5.0\Calculadora.AssemblyInfo.cs
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\obj\Debug\net5.0\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\obj\Debug\net5.0\Calculadora.dll
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\obj\Debug\net5.0\ref\Calculadora.dll
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\obj\Debug\net5.0\Calculadora.pdb
+C:\Users\gesse\Desktop\projeto_calculadora\Calculadora\Calculadora\obj\Debug\net5.0\Calculadora.genruntimeconfig.cache
