@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 namespace Calculadora
 {
     class Program
@@ -12,11 +13,13 @@ namespace Calculadora
             double n1;
             double n2;
 
-            Console.WriteLine("Escolha qual operação deseja realizar: \r\n Soma \r\n Subtração \r\n Multiplicação \r\n Divisão \r\n Mostrar todos os resultados \r\n Sair");
-            string operacao = Console.ReadLine();
+            bool stoploop = false;
 
-            for (int i = 0; i < 5; i++)
+            while (stoploop == false)
             {
+                Console.WriteLine("Escolha qual operação deseja realizar: \r\n Soma \r\n Subtração \r\n Multiplicação \r\n Divisão \r\n Mostrar todos os resultados \r\n Sair");
+                string operacao = Console.ReadLine();
+
                 switch (operacao)
                 {
                     case "Soma":
@@ -48,13 +51,17 @@ namespace Calculadora
                         Console.WriteLine(Divisao(n1, n2, resultados));
                         continue;
                     case "Mostrar todos os resultados":
-                        Console.WriteLine(resultados);
+                        foreach(var i in resultados)
+                        {
+                            Console.WriteLine(i);
+                        }
                         continue;
                     case "Sair":
+                        stoploop = true;
                         break;
                     default:
                         Console.WriteLine("Você precisa escolher uma operação");
-                        break;
+                        continue;
 
                 }
             }
@@ -62,25 +69,28 @@ namespace Calculadora
         }
         private static double Soma(double n1, double n2, List<double> resultados)
         {
-            resultados.Add((double)(n1 + n2));
-            return n1 + n2;
-
+            double result = n1 + n2;
+            resultados.Add((double)result);
+            return result;
         }        
         private static double Subtracao(double n1, double n2, List<double> resultados)
         {
-            resultados.Add((double)(n1 - n2));
-            return n1 - n2;
-
+            double result = n1 - n2;
+            resultados.Add((double)result);
+            return result;
         }
         private static double Multiplicacao(double n1, double n2, List<double> resultados)
         {
-            resultados.Add((double)(n1 * n2));
-            return n1 * n2;
+            double result = n1 * n2;
+            resultados.Add((double)result);
+            return result;
 
-        }private static double Divisao(double n1, double n2, List<double> resultados)
+        }
+        private static double Divisao(double n1, double n2, List<double> resultados)
         {
-            resultados.Add((double)(n1 / n2));
-            return n1 / n2;
+            double result = n1 / n2;
+            resultados.Add((double)result);
+            return result;
 
         }
         
