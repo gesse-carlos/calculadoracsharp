@@ -8,13 +8,11 @@ namespace Calculadora
     {
         static void Main(string[] args)
         {
-            Calculadora n1, n2, Resultados;
+            Calculadora calculadora = new Calculadora();
+            double n1, n2;
+            List<double> Resultados;
 
-            n1 = new Calculadora();
-            n2 = new Calculadora();
-            Resultados = new Calculadora();
-
-            bool stoploop = false;
+            var stoploop = false;
 
             while (stoploop == false)
             {
@@ -28,31 +26,31 @@ namespace Calculadora
                         n1 = double.Parse(Console.ReadLine());
                         Console.WriteLine("Digite o segundo número da operação");
                         n2 = double.Parse(Console.ReadLine());
-                        Console.WriteLine(Calculadora.Soma(n1, n2, Resultados));
+                        Console.WriteLine(calculadora.Soma(n1, n2, calculadora.Resultados));
                         continue;
                     case "Subtração":
                         Console.WriteLine("Digite o primeiro número da operação");
                         n1 = double.Parse(Console.ReadLine());
                         Console.WriteLine("Digite o segundo número da operação");
                         n2 = double.Parse(Console.ReadLine());
-                        Console.WriteLine(Calculadora.Subtracao(n1, n2, Calculadora.Resultados));
+                        Console.WriteLine(calculadora.Subtracao(n1, n2, calculadora.Resultados));
                         continue;
                     case "Multiplicação":
                         Console.WriteLine("Digite o primeiro número da operação");
                         n1 = double.Parse(Console.ReadLine());
                         Console.WriteLine("Digite o segundo número da operação");
                         n2 = double.Parse(Console.ReadLine());
-                        Console.WriteLine(Calculadora.Multiplicacao(n1, n2, Calculadora.Resultados));
+                        Console.WriteLine(calculadora.Multiplicacao(n1, n2, calculadora.Resultados));
                         continue;
                     case "Divisão":
                         Console.WriteLine("Digite o primeiro número da operação");
                         n1 = double.Parse(Console.ReadLine());
                         Console.WriteLine("Digite o segundo número da operação");
                         n2 = double.Parse(Console.ReadLine());
-                        Console.WriteLine(Calculadora.Divisao(n1, n2, Calculadora.Resultados));
+                        Console.WriteLine(calculadora.Divisao(n1, n2, calculadora.Resultados));
                         continue;
                     case "Mostrar todos os resultados":
-                        foreach (var i in Calculadora.Resultados)
+                        foreach (var i in calculadora.Resultados)
                         {
                             Console.WriteLine(i);
                         }
