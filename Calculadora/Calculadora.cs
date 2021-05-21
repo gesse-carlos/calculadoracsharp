@@ -15,26 +15,26 @@ namespace Calculadora
         public double Soma(double n1, double n2, List<double> Resultados)
         {
             double result = n1 + n2;
-            Resultados.Add((double)result);
+            Resultados.Add(result);
             return result;
         }
         public double Subtracao(double n1, double n2, List<double> Resultados)
         {
             double result = n1 - n2;
-            Resultados.Add((double)result);
+            Resultados.Add(result);
             return result;
         }
         public double Multiplicacao(double n1, double n2, List<double> Resultados)
         {
             double result = n1 * n2;
-            Resultados.Add((double)result);
+            Resultados.Add(result);
             return result;
 
         }
         public double Divisao(double n1, double n2, List<double> Resultados)
         {
             double result = n1 / n2;
-            Resultados.Add((double)result);
+            Resultados.Add(result);
             return result;
 
         }
