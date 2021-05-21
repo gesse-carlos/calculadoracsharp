@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gesse\\Desktop\\C#\\calculadoracsharp\\Calculadora\\Calculadora.csproj": {}
+    "C:\\Users\\gesse\\Desktop\\calculadoracsharp\\Calculadora\\projeto_calculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gesse\\Desktop\\C#\\calculadoracsharp\\Calculadora\\Calculadora.csproj": {
+    "C:\\Users\\gesse\\Desktop\\calculadoracsharp\\Calculadora\\projeto_calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gesse\\Desktop\\C#\\calculadoracsharp\\Calculadora\\Calculadora.csproj",
-        "projectName": "Calculadora",
-        "projectPath": "C:\\Users\\gesse\\Desktop\\C#\\calculadoracsharp\\Calculadora\\Calculadora.csproj",
+        "projectUniqueName": "C:\\Users\\gesse\\Desktop\\calculadoracsharp\\Calculadora\\projeto_calculadora.csproj",
+        "projectName": "projeto_calculadora",
+        "projectPath": "C:\\Users\\gesse\\Desktop\\calculadoracsharp\\Calculadora\\projeto_calculadora.csproj",
         "packagesPath": "C:\\Users\\gesse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gesse\\Desktop\\C#\\calculadoracsharp\\Calculadora\\obj\\",
+        "outputPath": "C:\\Users\\gesse\\Desktop\\calculadoracsharp\\Calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gesse\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
